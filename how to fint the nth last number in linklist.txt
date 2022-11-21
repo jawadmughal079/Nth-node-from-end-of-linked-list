@@ -1,0 +1,14 @@
+      int total = 0;
+       Node * temp = reverseTheNode(head , total);
+   int i =1;
+       if(n <= total)
+       {
+           
+       
+               for( i =1 ; i< n ; i++)
+               {
+                   temp =temp -> next;
+               }
+               return temp -> data ;
+       }
+       return -1;
